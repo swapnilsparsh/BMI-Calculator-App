@@ -6,7 +6,6 @@ This is a flutter based simple BMI Calculator app which calculated Body Mass Ind
 
 One of the first simple apps I created while on my journey to learn Flutter.
 
-
 <!--
 ##### Download APK
 <pre><a href=""></a></pre>
@@ -14,7 +13,7 @@ One of the first simple apps I created while on my journey to learn Flutter.
   
 ### Dependencies
 
-1. [Font_Awesome_Flutter](https://pub.dev/packages/font_awesome_flutter)
+1. [Font Awesome Flutter](https://pub.dev/packages/font_awesome_flutter)
 
 2. [Flutter Launcher Icons](https://pub.dev/packages/flutter_launcher_icons)
 
@@ -41,13 +40,11 @@ flutter run
 - Some knowledge of Flutter and how to use Android Studio or Visual Studio is preferrable for a head start.
 - UI/UX Design skills are appreciable but not mandatory
 
-
 ## License
 
 This project follows the [MIT License](/LICENSE).
 
 ## Connect with me
-
 
 <div align="left">
 <a href="https://github.com/swapnilsparsh" target="_blank">
