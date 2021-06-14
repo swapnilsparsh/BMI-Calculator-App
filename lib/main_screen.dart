@@ -49,15 +49,17 @@ class _MainScreenState extends State<MainScreen> {
     return bmi.toStringAsFixed(1);
   }
 
-  String getInterpretation(double bmi) {
+  /* String getInterpretation(double bmi) {
     if (bmi >= 25.0) {
       return 'You have higher than normal body weight. Try to excersie more.';
-    } else if (bmi > 18.5) {
+    } 
+    else if (bmi > 18.5) {
       return 'You have a normal body weight. Good Job!';
-    } else {
+    } 
+    else {
       return 'You have lower than normal body weight. You can eat a bit more.';
     }
-  }
+  } */
 
   @override
   Widget build(BuildContext context) {
@@ -327,7 +329,7 @@ class _MainScreenState extends State<MainScreen> {
               onTap: () {
                 setState(() {
                   result = calculateBmi(weight, height);
-                  resultDetail = getInterpretation(bmi);
+                  /*resultDetail = getInterpretation(bmi);*/
                   showDialog(
                       context: context,
                       builder: (BuildContext contest) {
@@ -344,17 +346,17 @@ class _MainScreenState extends State<MainScreen> {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: <Widget>[
                                   Text(
-                                    'Result',
+                                    'Your BMI',
                                     style: textStyle1,
                                   ),
                                   Text(
                                     result.toString(),
                                     style: textStyle2,
                                   ),
-                                  Text(
+                                  /*Text(
                                     resultDetail,
                                     style: textStyle1,
-                                  ),
+                                  ),*/
                                 ],
                               ),
                             ));
