@@ -30,6 +30,10 @@ cd \bmi_calculator
 
   ##### To run the app, simply write
 ```bash
+flutter pub get
+```
+
+```bash
 flutter run
 ```
 
